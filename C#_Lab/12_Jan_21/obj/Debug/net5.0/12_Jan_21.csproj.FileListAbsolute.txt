@@ -1,0 +1,16 @@
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/bin/Debug/net5.0/12_Jan_21
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/bin/Debug/net5.0/12_Jan_21.deps.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/bin/Debug/net5.0/12_Jan_21.runtimeconfig.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/bin/Debug/net5.0/12_Jan_21.runtimeconfig.dev.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/bin/Debug/net5.0/12_Jan_21.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/bin/Debug/net5.0/ref/12_Jan_21.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/bin/Debug/net5.0/12_Jan_21.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/obj/Debug/net5.0/12_Jan_21.csprojAssemblyReference.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/obj/Debug/net5.0/12_Jan_21.GeneratedMSBuildEditorConfig.editorconfig
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/obj/Debug/net5.0/12_Jan_21.AssemblyInfoInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/obj/Debug/net5.0/12_Jan_21.AssemblyInfo.cs
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/obj/Debug/net5.0/12_Jan_21.csproj.CoreCompileInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/obj/Debug/net5.0/12_Jan_21.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/obj/Debug/net5.0/ref/12_Jan_21.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/obj/Debug/net5.0/12_Jan_21.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/12_Jan_21/obj/Debug/net5.0/12_Jan_21.genruntimeconfig.cache
