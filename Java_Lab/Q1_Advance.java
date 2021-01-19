@@ -13,7 +13,7 @@ class Q1_Advance{
             choice = obj.nextInt();
             if(choice==1){
                 System.out.print("Enter Time (in sec): ");
-                System.out.println("Position: " + getPosition(-9.81f, 0, 0, obj.nextDouble()) + " m\n");
+                System.out.println("Position: " + getPosition(-9.81, 0, 0, obj.nextDouble()) + " m\n");
             }else if(choice==2) break;
             else continue;
         }
