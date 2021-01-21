@@ -1,6 +1,5 @@
 // gd => graphic driver
 #include<iostream>
-#include<vector>
 #include<graphics.h>
 using namespace std;
 
