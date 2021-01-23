@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Q3{
+class AP_3{
     public static void main(String[] args){
         Scanner obj = new Scanner(System.in);
 	    System.out.print("Enter Integer Value: ");

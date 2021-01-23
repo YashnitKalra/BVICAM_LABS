@@ -15,7 +15,7 @@ class Adder{
     }
 }
 
-class Q1{
+class AP_1{
     public static int adder(String nums[]){
         int s = 0;
         for(String num:nums)

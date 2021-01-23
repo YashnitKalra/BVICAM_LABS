@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Q4{
+class AP_4{
     public static void main(String[] args){
         String text = "To be or not to be, that is the question;"
         +"Whether this nobler in the mind to suffer"

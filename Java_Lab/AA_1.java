@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Q1_Advance{
+class AA_1{
     public static double getPosition(double a, double v, double x, double t){
         return 0.5*a*Math.pow(t,2) + v*t + x;
     } 

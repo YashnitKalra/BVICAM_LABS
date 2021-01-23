@@ -22,7 +22,7 @@ int main(){
     setcolor(BLUE);
     int i=0;
     while(i<360){
-        pieslice(300,300,i,i+9,50);
+        pieslice(300,300,i,i+2,50);
         i+=13;
     }
     circle(300, 300 , 50);

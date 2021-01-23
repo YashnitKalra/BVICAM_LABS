@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Q5{
+class AP_5{
     public static void combinations(int arr[], boolean visited[], int iteration, int temp[]){
         if(iteration==3){
             for(int i:temp)

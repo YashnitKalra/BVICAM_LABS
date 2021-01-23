@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Q2_Advance{
+class AA_2{
     public static void main(String[] args){
         System.out.print("Enter Double Value: ");
         double num = new Scanner(System.in).nextDouble();

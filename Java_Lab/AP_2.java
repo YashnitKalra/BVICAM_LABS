@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Q2{
+class AP_2{
 
     public static double getSum(double n){
         if(n==1)
