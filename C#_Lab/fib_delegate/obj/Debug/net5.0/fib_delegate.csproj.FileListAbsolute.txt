@@ -1,0 +1,16 @@
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/obj/Debug/net5.0/fib_delegate.csprojAssemblyReference.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/obj/Debug/net5.0/fib_delegate.GeneratedMSBuildEditorConfig.editorconfig
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/obj/Debug/net5.0/fib_delegate.AssemblyInfoInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/obj/Debug/net5.0/fib_delegate.AssemblyInfo.cs
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/obj/Debug/net5.0/fib_delegate.csproj.CoreCompileInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/bin/Debug/net5.0/fib_delegate
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/bin/Debug/net5.0/fib_delegate.deps.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/bin/Debug/net5.0/fib_delegate.runtimeconfig.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/bin/Debug/net5.0/fib_delegate.runtimeconfig.dev.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/bin/Debug/net5.0/fib_delegate.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/bin/Debug/net5.0/ref/fib_delegate.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/bin/Debug/net5.0/fib_delegate.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/obj/Debug/net5.0/fib_delegate.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/obj/Debug/net5.0/ref/fib_delegate.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/obj/Debug/net5.0/fib_delegate.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/fib_delegate/obj/Debug/net5.0/fib_delegate.genruntimeconfig.cache
