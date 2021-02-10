@@ -2,9 +2,12 @@ import java.util.*;
 
 class CP_7{
     public static double getPosition(double a, double v, double x, double t){
-        if(t==0)
-            throw new NumberFormatException("\nThrown NumberFormatException");
-        return 0.5*a*Math.pow(t,2) + v*t + x;
+        try{
+            int temp = (int)v/(int)t;
+            return 0.5*a*Math.pow(t,2) + v*t + x;
+        }catch(ArithmeticException e){
+            throw new NumberFormatException("\nDivide By Zero");
+        }
     } 
 
     public static void main(String[] args){
@@ -19,6 +22,7 @@ class CP_7{
                     System.out.println("\nPosition: " + getPosition(-9.81, 0, 0, obj.nextDouble()) + " m");
                 }catch(NumberFormatException nfe){
                     System.out.println(nfe.getMessage());
+                    System.out.println("Caught by NumberFormatException catch block");
                 }finally{System.out.println("Finally called\n");}
             }else if(choice==2) break;
             else continue;

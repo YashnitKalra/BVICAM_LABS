@@ -51,37 +51,39 @@ int* matrixToArray(Matrix m, int n){
     return arr;
 }
 
-void myPlot(Matrix m){
+void myPlot(Matrix m, Matrix original){
     int gd = DETECT, gm;
     initgraph(&gd, &gm, NULL);
     int n = (m.rows-1)*(m.columns) + 2;
     int *arr = matrixToArray(m, n);
     // for(int i=0;i<n;i++)
     //     cout<<arr[i]<<" ";
+    int *arr2 = matrixToArray(original, n);
     drawpoly(n/2, arr);
+    drawpoly(n/2, arr2);
     getch();
     closegraph();
 }
 
-void translate(Matrix points){
+void translate(Matrix points, Matrix original){
     float tx,ty;
     cout<<"Enter tx: "; cin>>tx; cout<<"Enter ty: "; cin>>ty;
     Matrix t(3,3);
     t.arr[0][0] = 1; t.arr[1][1] = 1; t.arr[2][2] = 1; t.arr[0][2] = tx; t.arr[1][2] = ty;
     Matrix res = Matrix::multiply(t, points);
-    myPlot(res);
+    myPlot(res, original);
 }
 
-void scale(Matrix points){
+void scale(Matrix points, Matrix original){
     float sx,sy;
     cout<<"Enter sx: "; cin>>sx; cout<<"Enter sy: "; cin>>sy;
     Matrix t(3,3);
     t.arr[0][0] = sx; t.arr[1][1] = sy; t.arr[2][2] = 1;
     Matrix res = Matrix::multiply(t, points);
-    myPlot(res);
+    myPlot(res, original);
 }
 
-void rotation(Matrix points){
+void rotation(Matrix points, Matrix original){
     float theta;
     cout<<"Enter angle: "; cin>>theta;
     theta = theta * 3.14 / 180;
@@ -90,7 +92,7 @@ void rotation(Matrix points){
 	t.arr[1][0]=sin(theta); t.arr[1][1]=cos(theta);
     t.arr[2][2] = 1;
     Matrix res = Matrix::multiply(t, points);
-    myPlot(res);
+    myPlot(res, original);
 }
 
 int main(){
@@ -102,7 +104,7 @@ int main(){
     for(int i=0;i<line.columns;i++)
         line.arr[2][i] = 1;
     
-    // circ
+    // triangle
     Matrix triangle(3,3);
     triangle.arr[0][0] = 200; triangle.arr[1][0] = 50;
     triangle.arr[0][1] = 170; triangle.arr[1][1] = 80;
@@ -132,12 +134,11 @@ int main(){
 
         switch(choice1){
             case 1:
-                myPlot(temp); translate(temp); break;
+                translate(temp, temp); break;
             case 2:
-                myPlot(temp); scale(temp); break;
+                scale(temp, temp); break;
             case 3:
-            myPlot(temp); rotation(temp); break;
-                break;
+                rotation(temp, temp); break;
         }
     }while(choice1>0 && choice1<4);
     return 0;

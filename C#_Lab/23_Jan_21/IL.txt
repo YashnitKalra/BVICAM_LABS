@@ -1,0 +1,331 @@
+.class private auto ansi '<Module>'
+{
+} // end of class <Module>
+
+.class private auto ansi sealed beforefieldinit Microsoft.CodeAnalysis.EmbeddedAttribute
+    extends [System.Private.CoreLib]System.Attribute
+{
+    .custom instance void [System.Private.CoreLib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = (
+        01 00 00 00
+    )
+    .custom instance void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor() = (
+        01 00 00 00
+    )
+    // Methods
+    .method public hidebysig specialname rtspecialname 
+        instance void .ctor () cil managed 
+    {
+        // Method begins at RVA 0x2050
+        // Code size 8 (0x8)
+        .maxstack 8
+
+        IL_0000: ldarg.0
+        IL_0001: call instance void [System.Private.CoreLib]System.Attribute::.ctor()
+        IL_0006: nop
+        IL_0007: ret
+    } // end of method EmbeddedAttribute::.ctor
+
+} // end of class Microsoft.CodeAnalysis.EmbeddedAttribute
+
+.class private auto ansi sealed beforefieldinit System.Runtime.CompilerServices.NullableAttribute
+    extends [System.Private.CoreLib]System.Attribute
+{
+    .custom instance void [System.Private.CoreLib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = (
+        01 00 00 00
+    )
+    .custom instance void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor() = (
+        01 00 00 00
+    )
+    .custom instance void [System.Private.CoreLib]System.AttributeUsageAttribute::.ctor(valuetype [System.Private.CoreLib]System.AttributeTargets) = (
+        01 00 84 6b 00 00 02 00 54 02 0d 41 6c 6c 6f 77
+        4d 75 6c 74 69 70 6c 65 00 54 02 09 49 6e 68 65
+        72 69 74 65 64 00
+    )
+    // Fields
+    .field public initonly uint8[] NullableFlags
+
+    // Methods
+    .method public hidebysig specialname rtspecialname 
+        instance void .ctor (
+            uint8 ''
+        ) cil managed 
+    {
+        // Method begins at RVA 0x2059
+        // Code size 24 (0x18)
+        .maxstack 8
+
+        IL_0000: ldarg.0
+        IL_0001: call instance void [System.Private.CoreLib]System.Attribute::.ctor()
+        IL_0006: nop
+        IL_0007: ldarg.0
+        IL_0008: ldc.i4.1
+        IL_0009: newarr [System.Private.CoreLib]System.Byte
+        IL_000e: dup
+        IL_000f: ldc.i4.0
+        IL_0010: ldarg.1
+        IL_0011: stelem.i1
+        IL_0012: stfld uint8[] System.Runtime.CompilerServices.NullableAttribute::NullableFlags
+        IL_0017: ret
+    } // end of method NullableAttribute::.ctor
+
+    .method public hidebysig specialname rtspecialname 
+        instance void .ctor (
+            uint8[] ''
+        ) cil managed 
+    {
+        // Method begins at RVA 0x2072
+        // Code size 15 (0xf)
+        .maxstack 8
+
+        IL_0000: ldarg.0
+        IL_0001: call instance void [System.Private.CoreLib]System.Attribute::.ctor()
+        IL_0006: nop
+        IL_0007: ldarg.0
+        IL_0008: ldarg.1
+        IL_0009: stfld uint8[] System.Runtime.CompilerServices.NullableAttribute::NullableFlags
+        IL_000e: ret
+    } // end of method NullableAttribute::.ctor
+
+} // end of class System.Runtime.CompilerServices.NullableAttribute
+
+.class private auto ansi sealed beforefieldinit System.Runtime.CompilerServices.NullableContextAttribute
+    extends [System.Private.CoreLib]System.Attribute
+{
+    .custom instance void [System.Private.CoreLib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = (
+        01 00 00 00
+    )
+    .custom instance void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor() = (
+        01 00 00 00
+    )
+    .custom instance void [System.Private.CoreLib]System.AttributeUsageAttribute::.ctor(valuetype [System.Private.CoreLib]System.AttributeTargets) = (
+        01 00 4c 14 00 00 02 00 54 02 0d 41 6c 6c 6f 77
+        4d 75 6c 74 69 70 6c 65 00 54 02 09 49 6e 68 65
+        72 69 74 65 64 00
+    )
+    // Fields
+    .field public initonly uint8 Flag
+
+    // Methods
+    .method public hidebysig specialname rtspecialname 
+        instance void .ctor (
+            uint8 ''
+        ) cil managed 
+    {
+        // Method begins at RVA 0x2082
+        // Code size 15 (0xf)
+        .maxstack 8
+
+        IL_0000: ldarg.0
+        IL_0001: call instance void [System.Private.CoreLib]System.Attribute::.ctor()
+        IL_0006: nop
+        IL_0007: ldarg.0
+        IL_0008: ldarg.1
+        IL_0009: stfld uint8 System.Runtime.CompilerServices.NullableContextAttribute::Flag
+        IL_000e: ret
+    } // end of method NullableContextAttribute::.ctor
+
+} // end of class System.Runtime.CompilerServices.NullableContextAttribute
+
+.class private auto ansi beforefieldinit Student
+    extends [System.Private.CoreLib]System.Object
+{
+    .custom instance void System.Runtime.CompilerServices.NullableContextAttribute::.ctor(uint8) = (
+        01 00 02 00 00
+    )
+    .custom instance void System.Runtime.CompilerServices.NullableAttribute::.ctor(uint8) = (
+        01 00 00 00 00
+    )
+    // Fields
+    .field private string full_name
+    .field private string course
+    .field private string subject
+    .field private string university
+    .field private string email
+    .field private string phone_number
+
+    // Methods
+    .method public hidebysig specialname rtspecialname 
+        instance void .ctor (
+            string name,
+            string course,
+            string subject,
+            string university
+        ) cil managed 
+    {
+        .custom instance void System.Runtime.CompilerServices.NullableContextAttribute::.ctor(uint8) = (
+            01 00 00 00 00
+        )
+        // Method begins at RVA 0x2092
+        // Code size 52 (0x34)
+        .maxstack 8
+
+        IL_0000: ldarg.0
+        IL_0001: call instance void [System.Private.CoreLib]System.Object::.ctor()
+        IL_0006: nop
+        IL_0007: nop
+        IL_0008: ldarg.0
+        IL_0009: ldarg.1
+        IL_000a: stfld string Student::full_name
+        IL_000f: ldarg.0
+        IL_0010: ldarg.2
+        IL_0011: stfld string Student::course
+        IL_0016: ldarg.0
+        IL_0017: ldarg.3
+        IL_0018: stfld string Student::subject
+        IL_001d: ldarg.0
+        IL_001e: ldarg.s university
+        IL_0020: stfld string Student::university
+        IL_0025: ldarg.0
+        IL_0026: ldnull
+        IL_0027: stfld string Student::email
+        IL_002c: ldarg.0
+        IL_002d: ldnull
+        IL_002e: stfld string Student::phone_number
+        IL_0033: ret
+    } // end of method Student::.ctor
+
+    .method public hidebysig specialname rtspecialname 
+        instance void .ctor (
+            string name,
+            string course,
+            string subject,
+            string university,
+            string email,
+            string phone_number
+        ) cil managed 
+    {
+        .custom instance void System.Runtime.CompilerServices.NullableContextAttribute::.ctor(uint8) = (
+            01 00 00 00 00
+        )
+        // Method begins at RVA 0x20c7
+        // Code size 54 (0x36)
+        .maxstack 8
+
+        IL_0000: ldarg.0
+        IL_0001: call instance void [System.Private.CoreLib]System.Object::.ctor()
+        IL_0006: nop
+        IL_0007: nop
+        IL_0008: ldarg.0
+        IL_0009: ldarg.1
+        IL_000a: stfld string Student::full_name
+        IL_000f: ldarg.0
+        IL_0010: ldarg.2
+        IL_0011: stfld string Student::course
+        IL_0016: ldarg.0
+        IL_0017: ldarg.3
+        IL_0018: stfld string Student::subject
+        IL_001d: ldarg.0
+        IL_001e: ldarg.s university
+        IL_0020: stfld string Student::university
+        IL_0025: ldarg.0
+        IL_0026: ldarg.s email
+        IL_0028: stfld string Student::email
+        IL_002d: ldarg.0
+        IL_002e: ldarg.s phone_number
+        IL_0030: stfld string Student::phone_number
+        IL_0035: ret
+    } // end of method Student::.ctor
+
+    .method public hidebysig 
+        instance void displayStudentInfo () cil managed 
+    {
+        // Method begins at RVA 0x2100
+        // Code size 73 (0x49)
+        .maxstack 5
+
+        IL_0000: nop
+        IL_0001: ldstr "Name: {0}, Course: {1}, Subject: {2}, University: {3}, E-Mail: {4}, Phone Number: {5}"
+        IL_0006: ldc.i4.6
+        IL_0007: newarr [System.Private.CoreLib]System.Object
+        IL_000c: dup
+        IL_000d: ldc.i4.0
+        IL_000e: ldarg.0
+        IL_000f: ldfld string Student::full_name
+        IL_0014: stelem.ref
+        IL_0015: dup
+        IL_0016: ldc.i4.1
+        IL_0017: ldarg.0
+        IL_0018: ldfld string Student::course
+        IL_001d: stelem.ref
+        IL_001e: dup
+        IL_001f: ldc.i4.2
+        IL_0020: ldarg.0
+        IL_0021: ldfld string Student::subject
+        IL_0026: stelem.ref
+        IL_0027: dup
+        IL_0028: ldc.i4.3
+        IL_0029: ldarg.0
+        IL_002a: ldfld string Student::university
+        IL_002f: stelem.ref
+        IL_0030: dup
+        IL_0031: ldc.i4.4
+        IL_0032: ldarg.0
+        IL_0033: ldfld string Student::email
+        IL_0038: stelem.ref
+        IL_0039: dup
+        IL_003a: ldc.i4.5
+        IL_003b: ldarg.0
+        IL_003c: ldfld string Student::phone_number
+        IL_0041: stelem.ref
+        IL_0042: call void [System.Console]System.Console::WriteLine(string, object[])
+        IL_0047: nop
+        IL_0048: ret
+    } // end of method Student::displayStudentInfo
+
+} // end of class Student
+
+.class private auto ansi beforefieldinit _23_Jan_21.Program
+    extends [System.Private.CoreLib]System.Object
+{
+    // Methods
+    .method private hidebysig static 
+        void Main (
+            string[] args
+        ) cil managed 
+    {
+        // Method begins at RVA 0x2158
+        // Code size 78 (0x4e)
+        .maxstack 6
+        .locals init (
+            [0] class Student stud1,
+            [1] class Student stud2
+        )
+
+        IL_0000: nop
+        IL_0001: ldstr "ABC"
+        IL_0006: ldstr "CourseX"
+        IL_000b: ldstr "SubjectX"
+        IL_0010: ldstr "UniversityX"
+        IL_0015: newobj instance void Student::.ctor(string, string, string, string)
+        IL_001a: stloc.0
+        IL_001b: ldloc.0
+        IL_001c: callvirt instance void Student::displayStudentInfo()
+        IL_0021: nop
+        IL_0022: ldstr "XYZ"
+        IL_0027: ldstr "CourseY"
+        IL_002c: ldstr "SubjectY"
+        IL_0031: ldstr "UniversityY"
+        IL_0036: ldstr "email@example.com"
+        IL_003b: ldstr "9999999999"
+        IL_0040: newobj instance void Student::.ctor(string, string, string, string, string, string)
+        IL_0045: stloc.1
+        IL_0046: ldloc.1
+        IL_0047: callvirt instance void Student::displayStudentInfo()
+        IL_004c: nop
+        IL_004d: ret
+    } // end of method Program::Main
+
+    .method public hidebysig specialname rtspecialname 
+        instance void .ctor () cil managed 
+    {
+        // Method begins at RVA 0x21b2
+        // Code size 8 (0x8)
+        .maxstack 8
+
+        IL_0000: ldarg.0
+        IL_0001: call instance void [System.Private.CoreLib]System.Object::.ctor()
+        IL_0006: nop
+        IL_0007: ret
+    } // end of method Program::.ctor
+
+} // end of class _23_Jan_21.Program

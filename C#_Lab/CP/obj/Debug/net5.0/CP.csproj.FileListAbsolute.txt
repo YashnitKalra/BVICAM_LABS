@@ -1,0 +1,16 @@
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/obj/Debug/net5.0/CP.csprojAssemblyReference.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/obj/Debug/net5.0/CP.GeneratedMSBuildEditorConfig.editorconfig
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/obj/Debug/net5.0/CP.AssemblyInfoInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/obj/Debug/net5.0/CP.AssemblyInfo.cs
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/obj/Debug/net5.0/CP.csproj.CoreCompileInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/bin/Debug/net5.0/CP
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/bin/Debug/net5.0/CP.deps.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/bin/Debug/net5.0/CP.runtimeconfig.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/bin/Debug/net5.0/CP.runtimeconfig.dev.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/bin/Debug/net5.0/CP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/bin/Debug/net5.0/ref/CP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/bin/Debug/net5.0/CP.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/obj/Debug/net5.0/CP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/obj/Debug/net5.0/ref/CP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/obj/Debug/net5.0/CP.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/CP/obj/Debug/net5.0/CP.genruntimeconfig.cache

@@ -1,0 +1,24 @@
+public class DP_5 {
+    static String message;
+
+    private static class CorrectorThread extends Thread {
+        public void run() {
+            try {
+                sleep(1000);
+            } catch (InterruptedException e) {}
+            // Key statement 1:
+            message = "Mares do eat oats.";
+        }
+    }
+
+    public static void main(String args[]) throws InterruptedException {
+        (new CorrectorThread()).start();
+        message = "Mares do not eat oats.";
+        Thread.sleep(2000);
+        // Key statement 2:
+        System.out.println(message);
+    }
+}
+// No the application does not print "Mares do eat oats"
+// Yes it would help to change the two invocations of sleep
+// We can make the child thread sleep more than the parent thread sleep
