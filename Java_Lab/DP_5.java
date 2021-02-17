@@ -19,6 +19,8 @@ public class DP_5 {
         System.out.println(message);
     }
 }
-// No the application does not print "Mares do eat oats"
-// Yes it would help to change the two invocations of sleep
-// We can make the child thread sleep more than the parent thread sleep
+// Most of the times "Mares do eat oats" will be printed
+// But there is no gaurantee that key statement 1 will execute after 1000ms
+// Since sleep() might throw InterruptedException
+// No it will not help to change the two invocations of sleep
+// To make all the changes visible to main thread we need a happens before relationship so we should instead use join() 

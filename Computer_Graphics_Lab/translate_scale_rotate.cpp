@@ -18,14 +18,6 @@ class Matrix{
 					arr[i][j]=0;
 			}
 		}
-        void print(){
-			for(int i=0;i<rows;i++){
-				cout<<"[ ";
-				for(int j=0;j<columns;j++)
-					cout<<arr[i][j]<<" ";
-				cout<<"]\n";
-			}
-		}
 		static Matrix multiply(Matrix m1, Matrix m2){
 			Matrix m(m1.rows,m2.columns);
 			for(int i=0;i<m.rows;i++){

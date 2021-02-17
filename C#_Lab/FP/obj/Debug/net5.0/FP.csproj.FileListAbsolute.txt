@@ -1,0 +1,16 @@
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/bin/Debug/net5.0/FP
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/bin/Debug/net5.0/FP.deps.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/bin/Debug/net5.0/FP.runtimeconfig.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/bin/Debug/net5.0/FP.runtimeconfig.dev.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/bin/Debug/net5.0/FP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/bin/Debug/net5.0/ref/FP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/bin/Debug/net5.0/FP.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/obj/Debug/net5.0/FP.csprojAssemblyReference.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/obj/Debug/net5.0/FP.GeneratedMSBuildEditorConfig.editorconfig
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/obj/Debug/net5.0/FP.AssemblyInfoInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/obj/Debug/net5.0/FP.AssemblyInfo.cs
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/obj/Debug/net5.0/FP.csproj.CoreCompileInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/obj/Debug/net5.0/FP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/obj/Debug/net5.0/ref/FP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/obj/Debug/net5.0/FP.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/FP/obj/Debug/net5.0/FP.genruntimeconfig.cache

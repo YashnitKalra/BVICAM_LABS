@@ -26,6 +26,8 @@ class BankingSync implements Runnable{
 public class DP_2 {
     public static void main(String[] args){
         Thread obj1 = new Thread(new BankingSync(1, 1000));
+        Thread obj2 = new Thread(new BankingSync(2, 1200));
         obj1.start();
+        obj2.start();
     }
 }
