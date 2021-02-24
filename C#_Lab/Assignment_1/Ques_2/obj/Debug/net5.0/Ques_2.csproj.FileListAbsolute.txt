@@ -1,0 +1,16 @@
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/bin/Debug/net5.0/Ques_2
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/bin/Debug/net5.0/Ques_2.deps.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/bin/Debug/net5.0/Ques_2.runtimeconfig.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/bin/Debug/net5.0/Ques_2.runtimeconfig.dev.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/bin/Debug/net5.0/Ques_2.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/bin/Debug/net5.0/ref/Ques_2.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/bin/Debug/net5.0/Ques_2.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/obj/Debug/net5.0/Ques_2.csprojAssemblyReference.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/obj/Debug/net5.0/Ques_2.GeneratedMSBuildEditorConfig.editorconfig
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/obj/Debug/net5.0/Ques_2.AssemblyInfoInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/obj/Debug/net5.0/Ques_2.AssemblyInfo.cs
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/obj/Debug/net5.0/Ques_2.csproj.CoreCompileInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/obj/Debug/net5.0/Ques_2.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/obj/Debug/net5.0/ref/Ques_2.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/obj/Debug/net5.0/Ques_2.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_1/Ques_2/obj/Debug/net5.0/Ques_2.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/bin/Debug/net5.0/HP
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/bin/Debug/net5.0/HP.deps.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/bin/Debug/net5.0/HP.runtimeconfig.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/bin/Debug/net5.0/HP.runtimeconfig.dev.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/bin/Debug/net5.0/HP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/bin/Debug/net5.0/ref/HP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/bin/Debug/net5.0/HP.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/obj/Debug/net5.0/HP.csprojAssemblyReference.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/obj/Debug/net5.0/HP.GeneratedMSBuildEditorConfig.editorconfig
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/obj/Debug/net5.0/HP.AssemblyInfoInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/obj/Debug/net5.0/HP.AssemblyInfo.cs
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/obj/Debug/net5.0/HP.csproj.CoreCompileInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/obj/Debug/net5.0/HP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/obj/Debug/net5.0/ref/HP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/obj/Debug/net5.0/HP.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/HP/obj/Debug/net5.0/HP.genruntimeconfig.cache

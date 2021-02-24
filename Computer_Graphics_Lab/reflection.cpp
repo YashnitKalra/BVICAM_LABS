@@ -49,10 +49,12 @@ void myPlot(Matrix m, Matrix original){
     int n = (m.rows-1)*(m.columns) + 2;
     int *arr = matrixToArray(m, n);
     int *arr2 = matrixToArray(original, n);
-	printf("Reflection: RED");
     drawpoly(n/2, arr2);
 	setcolor(RED);
     drawpoly(n/2, arr);
+	setcolor(GREEN);
+	line(25,250,600,250);
+	line(300,25,300,450);
     getch();
     closegraph();
 }
@@ -68,14 +70,14 @@ void reflection_x(Matrix m){
 	Matrix t(3,3);
 	t.arr[0][0] = t.arr[2][2] = 1;
 	t.arr[1][1] = -1;
-	translate(Matrix::multiply(t,m), m , 0, 90);
+	translate(Matrix::multiply(t,m), m , 150, 250);
 }
 
 void reflection_y(Matrix m){
 	Matrix t(3,3);
 	t.arr[1][1] = t.arr[2][2] = 1;
 	t.arr[0][0] = -1;
-	translate(Matrix::multiply(t,m), m , 240, 0);
+	translate(Matrix::multiply(t,m), m , 300, 50);
 }
 
 int main(){

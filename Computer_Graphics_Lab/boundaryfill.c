@@ -6,7 +6,6 @@ int main(){
     setcolor(BLUE);
     rectangle(100,100,200,200);
     int x=100, y=100;
-    printf("%d",getpixel(100,101));
     while(getpixel(x+1,y+1)==0){
         while(getpixel(x+1,y+1)==0){
             putpixel(x+1,y+1,RED);

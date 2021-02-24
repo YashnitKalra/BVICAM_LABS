@@ -1,0 +1,2 @@
+Hi this is java.(vowels-5, consonants-7, space-3)
+I like studying it.(vowels-6, consonants-9, space-3)

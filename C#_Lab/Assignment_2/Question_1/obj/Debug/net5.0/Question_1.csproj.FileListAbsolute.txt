@@ -1,0 +1,16 @@
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/obj/Debug/net5.0/Question_1.csprojAssemblyReference.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/obj/Debug/net5.0/Question_1.GeneratedMSBuildEditorConfig.editorconfig
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/obj/Debug/net5.0/Question_1.AssemblyInfoInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/obj/Debug/net5.0/Question_1.AssemblyInfo.cs
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/obj/Debug/net5.0/Question_1.csproj.CoreCompileInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/bin/Debug/net5.0/Question_1
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/bin/Debug/net5.0/Question_1.deps.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/bin/Debug/net5.0/Question_1.runtimeconfig.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/bin/Debug/net5.0/Question_1.runtimeconfig.dev.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/bin/Debug/net5.0/Question_1.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/bin/Debug/net5.0/ref/Question_1.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/bin/Debug/net5.0/Question_1.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/obj/Debug/net5.0/Question_1.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/obj/Debug/net5.0/ref/Question_1.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/obj/Debug/net5.0/Question_1.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/Assignment_2/Question_1/obj/Debug/net5.0/Question_1.genruntimeconfig.cache
