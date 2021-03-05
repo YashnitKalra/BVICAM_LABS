@@ -2,7 +2,7 @@ import java.sql.*;
 import java.util.*;
 
 class DB{
-    static String user = "postgres", password = "root", url = "jdbc:postgresql://localhost/bvicam";
+    static String user = "postgres", password = "", url = "jdbc:postgresql://localhost/bvicam";
     Connection conn;
     PreparedStatement pst;
     ResultSet rs;

@@ -31,7 +31,7 @@ namespace JP
     {
         static void Main(string[] args)
         {
-            string host = "localhost", username = "postgres", pass = "root", db = "bvicam";
+            string host = "localhost", username = "postgres", pass = "", db = "bvicam";
             string connectionString = $"Host={host};Username={username};Password={pass};Database={db}";
 
             bool createTables = false;
