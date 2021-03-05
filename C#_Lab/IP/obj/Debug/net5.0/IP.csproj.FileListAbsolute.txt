@@ -1,0 +1,16 @@
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/obj/Debug/net5.0/IP.csprojAssemblyReference.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/obj/Debug/net5.0/IP.GeneratedMSBuildEditorConfig.editorconfig
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/obj/Debug/net5.0/IP.AssemblyInfoInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/obj/Debug/net5.0/IP.AssemblyInfo.cs
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/obj/Debug/net5.0/IP.csproj.CoreCompileInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/bin/Debug/net5.0/IP
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/bin/Debug/net5.0/IP.deps.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/bin/Debug/net5.0/IP.runtimeconfig.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/bin/Debug/net5.0/IP.runtimeconfig.dev.json
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/bin/Debug/net5.0/IP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/bin/Debug/net5.0/ref/IP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/bin/Debug/net5.0/IP.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/obj/Debug/net5.0/IP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/obj/Debug/net5.0/ref/IP.dll
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/obj/Debug/net5.0/IP.pdb
+/home/yashnit/Desktop/BVICAM_LABS/C#_Lab/IP/obj/Debug/net5.0/IP.genruntimeconfig.cache

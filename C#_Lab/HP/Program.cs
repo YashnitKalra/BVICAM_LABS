@@ -5,6 +5,7 @@ namespace HP
     public delegate void DisplayIndex(int[] arr, int num); // HP 1
     public delegate void DisplayElements(int[] arr); // HP 2
     public delegate void SortAndDisplay(int[] arr); // HP 4
+    public delegate string AddExample();
 
     class Temp{
         public static Func<int[], int, bool> Search = (arr, num) => {
@@ -24,9 +25,20 @@ namespace HP
         }
 
         static void Display(int[] arr){
+            Console.Write("Array: ");
             foreach(int i in arr)
                 Console.Write(i+" ");
             Console.Write("\n");
+        }
+
+        static string getMessage1(){
+            Console.Write("Hello ");
+            return "Hello";
+        }
+
+        static string getMessage2(){
+            Console.Write("World ");
+            return "World";
         }
 
         static void Main(string[] args)
@@ -40,6 +52,11 @@ namespace HP
             DisplayElements d2 = Program.Display;
             d2(arr);
 
+            // HP 3
+            AddExample d3 = Program.getMessage1;
+            d3 += getMessage2;
+            Console.WriteLine($"\nAdd Delegate Returned: {d3()}");
+
             // HP 4
             SortAndDisplay d4 = delegate(int[] arr){
                 for(int i=0;i<arr.Length;i++){
@@ -49,6 +66,7 @@ namespace HP
                         }
                     }
                 }
+                Console.Write("Sorted Array: ");
                 foreach(int i in arr)
                     Console.Write(i+" ");
                 Console.Write("\n");          
@@ -56,7 +74,7 @@ namespace HP
             d4(arr);
 
             // HP 5
-            Console.WriteLine(Temp.Search(arr, -8));
+            Console.WriteLine($"Found -7 in array: {Temp.Search(arr, -7)}");
         }
     }
 }

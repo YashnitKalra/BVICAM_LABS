@@ -1,0 +1,127 @@
+class DB
+    Connection conn
+    DB(connectionString)
+        make connection with db
+        conn = connect to db
+    End
+    Function RunQuery(query)
+        execute the query
+        conn.execute(query)
+    End
+    conn = GetConnection()
+End
+
+interface DepositInterface
+    Function Deposit(amount)
+End
+interface WithdrawInterface
+    Function Withdraw(amount)
+End
+
+abstract class Account
+    protected account_type, double balance, interest_rate
+    public account_no, date, customer
+    abstract Function Calculate_interest()
+End
+
+class Deposit_Account:Account,DepositInterface,WithdrawInterface
+    public Deposit_Account(parameters)
+        assign parameters to data members
+    End
+    Function Deposit(amount)
+        If amount>0
+            balance += amount
+        Endif
+    End
+    Function Withdraw(amount)
+        If amount<=balance
+            balance -= amount
+        Endif
+    End
+    Function Calculate_interest()
+        months ← get months from date (data member)
+        If balance<1000
+            Return 0
+        Else
+            Return balance*months*interest_rate/100
+        Endif
+    End
+End
+
+class Loan_Account:Account,Deposit
+    loan_amount
+    public Loan_Account(parameters)
+        assign parameters to data members
+    End
+    Function Deposit(amount)
+        If amount>0
+            balance += amount
+        Endif
+    End
+    Function Calculate_interest()
+        months ← get months from date (data member)
+        If customer.IS_INDIVIDUAL
+            Return max(months-3,0)*loan_amount*interest_rate/100
+        Else
+            Return max(months-2,0)*loan_amount*interest_rate/100
+        Endif
+    End    
+End
+
+class Mortgage_Account:Loan_Account
+    collateral_value
+    public Mortgage_Account(parameters)
+        assign parameters to data members
+    Function Calculate_interest()
+        months ← get months from date (data member)
+        If customer.IS_INDIVIDUAL
+            Return max(months-6,0)*loan_amount*interest_rate/100
+        Else
+            Return (min(months,12)/2 + max(months-12,0))*loan_amount*interest_rate/100
+        Endif
+    End    
+End
+
+class Customer
+    name, address, contact_number, IS_INDIVIDUAL
+    public Customer(parameters)
+        assign parameters to data members
+    End
+End
+
+class Individual:Customer
+    profession, income
+    public Individual(parameters)
+        assign parameters to data members
+    End
+End
+
+class Company:Customer
+    type, revenue
+    public Company(parameters)
+        assign parameters to data members
+    End
+End
+
+class Program
+    Function Main(args)
+        show menu to user
+        db = DB(connectionString)
+        choice ← get input from user
+        temp = db.RunQuery(fetchCustomerQueryString)
+        customer ← load data from temp
+        temp = db.RunQuery(fetchAccountQueryString)
+        account ← load data from temp
+        If choice is deposit
+            account.Deposit(amount)
+            db.RunQuery(updateAccountQueryString)
+        Else If choice is withdraw
+            If account.account_type is Deposit_Account
+                account.Withdraw(amount)
+                db.RunQuery(updateAccountQueryString)
+            Endif
+        Else If choice is calculate interest
+            print account.Calculate_interest()
+        Endif
+    End
+End
