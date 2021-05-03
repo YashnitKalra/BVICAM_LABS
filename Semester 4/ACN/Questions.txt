@@ -1,0 +1,5 @@
+Question 1
+AIM: To configure a network of two systems.
+
+Question 2
+AIM: 
