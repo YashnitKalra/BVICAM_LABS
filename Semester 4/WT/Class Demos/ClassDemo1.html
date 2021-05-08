@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        input{
+            display: block;
+            margin-top: 10px;
+        }
+        form{
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="return form1()">
+        <input type="text" placeholder="Username" id='username'>
+        <input type="password" placeholder="Password" id='password'>
+        <input type="submit" value="Click Me">
+    </form>
+    <form onsubmit="return form2()">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="text" id="number" placeholder="Phone" pattern="\d{10}">
+        <input type="submit" value="Click Me">
+    </form>
+</body>
+</html>
+<script>
+    function form1(){
+        alert(
+            `Username: ${document.getElementById("username").value}\n`+
+            `Password: ${document.getElementById("password").value}`
+        );
+        return false;
+    }
+    function form2(){
+        alert(
+            `Name: ${document.getElementById("name").value}\n`+
+            `Email: ${document.getElementById("email").value}\n`+
+            `Phone: ${document.getElementById("number").value}`
+        );
+        return false;
+    }
+</script>

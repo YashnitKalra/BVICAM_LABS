@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP 1</title>
+    <style>
+        form{
+            border: 1px dashed blue;
+            padding: 20px;
+            display: inline-block;
+            text-align: center;
+            background-color: rgb(172, 172, 240);
+        }
+        input,textarea,select{
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form id="feedback" onsubmit="return clicked()">
+        <label>Name: </label><input type="text" id="name" required>
+        <label for="email">Email: </label><input type="email" id="email" required>
+        <label for="description">Description: </label><textarea id="description" cols="30" rows="10" required></textarea>
+        <label for="language">Language: </label>
+        <select id="languange">
+            <option value="c">C</option>
+            <option value="c++">C++</option>
+            <option value="java">Java</option>
+            <option value="asp.net">ASP.NET</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+<script>
+    function clicked(){
+        alert("Thank You for the Feedback.");
+        return false;
+    }
+</script>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP 2</title>
+    <style>
+        div{
+            margin-bottom: 10px;
+        }
+        form{
+            border: 1px solid orange;
+            padding: 20px;
+            background-color: rgb(255, 255, 139);
+        }
+        button{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form name="WebControls">
+        <h3><label>Hello</label></h3>
+        <div>
+            <label>Crust Size: </label>
+            <input type="radio" name="size" value="75" checked>Regular
+            <input type="radio" name="size" value="150">Medium
+            <input type="radio" name="size" value="250">Large
+        </div>
+        <div>
+            <label>Extra Cheese: </label>
+            <input type="checkbox" id="cheese">
+        </div>
+        <div>
+            <label>Toppings:</label>
+            <input type="checkbox" name="toppings" value="Corn">Corn
+            <input type="checkbox" name="toppings" value="Capsicum">Capsicum
+            <input type="checkbox" name="toppings" value="Onion">Onion
+            <input type="checkbox" name="toppings" value="Tomato">Tomato
+            <input type="checkbox" name="toppings" value="Jalapeno">Jalapeno
+        </div>
+        <div>
+            <label>Amount: <strong>Rs. <span id="cost">75</span></strong></label>
+        </div>
+        <div style="text-align: center;">
+            <input type="submit" value="Click Me"  onclick="formClicked()">
+        </div>
+    </form>
+</body>
+</html>
+<script>
+    function updateAmount(amount){
+        document.getElementById('cost').innerText = amount;
+    }
+
+    function calcAmount(){
+        var base = parseFloat(getSelectedElements('size')[0]);
+        var amount = 0.0;
+        if(document.getElementById('cheese').checked)
+            amount += base/10;
+        amount += base/10 * (getSelectedElements('toppings').length);
+        updateAmount(base + amount);
+    }
+
+    function getSelectedElements(name){
+        var arr = [];
+        document.getElementsByName(name).forEach(element => {
+            if(element.checked)
+                arr.push(element.value);
+        });
+        return arr;
+    }
+
+    document.getElementsByName('size').forEach(e => {
+        e.addEventListener('change', calcAmount);
+    });
+    document.getElementById('cheese').addEventListener('change', calcAmount);
+    document.getElementsByName('toppings').forEach(e => {
+        e.addEventListener('change', calcAmount);
+    });
+    calcAmount();
+
+    function formClicked(){
+        alert(`Thank You For Ordering\nAmount: Rs. ${document.getElementById('cost').innerText}`);
+    }
+</script>
