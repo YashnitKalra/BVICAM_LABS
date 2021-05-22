@@ -2,4 +2,10 @@ Question 1
 AIM: To configure a network of two systems.
 
 Question 2
-AIM: 
+AIM: To configure n systems using a HUB.
+
+Question 3
+AIM: To configure n system using a Switch.
+
+Question 4
+AIM: To configure 2 systems using a Router.
