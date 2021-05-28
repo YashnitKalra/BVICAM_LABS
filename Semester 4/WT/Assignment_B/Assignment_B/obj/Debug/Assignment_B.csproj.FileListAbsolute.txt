@@ -1,0 +1,18 @@
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/Class Demos/Assignment_B/Assignment_B/bin/Assignment_B.dll
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/Class Demos/Assignment_B/Assignment_B/bin/Assignment_B.pdb
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/Class Demos/Assignment_B/Assignment_B/obj/Debug/Assignment_B.csprojAssemblyReference.cache
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/Class Demos/Assignment_B/Assignment_B/obj/Debug/Assignment_B.csproj.CoreCompileInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/Class Demos/Assignment_B/Assignment_B/obj/Debug/Assignment_B.dll
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/Class Demos/Assignment_B/Assignment_B/obj/Debug/Assignment_B.pdb
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/Assignment_B/Assignment_B/bin/Assignment_B.dll
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/Assignment_B/Assignment_B/bin/Assignment_B.pdb
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/Assignment_B/Assignment_B/obj/Debug/Assignment_B.csprojAssemblyReference.cache
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/Assignment_B/Assignment_B/obj/Debug/Assignment_B.csproj.CoreCompileInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/Assignment_B/Assignment_B/obj/Debug/Assignment_B.dll
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/Assignment_B/Assignment_B/obj/Debug/Assignment_B.pdb
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/WT/Assignment_B/Assignment_B/bin/Assignment_B.dll
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/WT/Assignment_B/Assignment_B/bin/Assignment_B.pdb
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/WT/Assignment_B/Assignment_B/obj/Debug/Assignment_B.csprojAssemblyReference.cache
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/WT/Assignment_B/Assignment_B/obj/Debug/Assignment_B.csproj.CoreCompileInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/WT/Assignment_B/Assignment_B/obj/Debug/Assignment_B.dll
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/WT/Assignment_B/Assignment_B/obj/Debug/Assignment_B.pdb

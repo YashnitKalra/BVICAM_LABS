@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{A392CC45-B9AC-478B-B4E4-4DFBCD8019CA}|">
+  <MonoDevelop.Ide.ItemProperties.Assignment__B PreferredExecutionTarget="firefox" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment_B/BP_3.aspx.cs">
+    <Files>
+      <File FileName="Assignment_B/Default.aspx" Line="12" Column="10" />
+      <File FileName="Assignment_B/BP_2.aspx.cs" Line="18" Column="99" />
+      <File FileName="Assignment_B/BP_2.aspx" Line="11" Column="34" />
+      <File FileName="Assignment_B/BP_3.aspx" Line="17" Column="20" />
+      <File FileName="Assignment_B/BP_3.aspx.cs" Line="17" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assignment_B" expanded="True">
+            <Node name="Assignment_B" expanded="True">
+              <Node name="BP_3.aspx" expanded="True">
+                <Node name="BP_3.aspx.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Assignment_B.Tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assignment__B.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
