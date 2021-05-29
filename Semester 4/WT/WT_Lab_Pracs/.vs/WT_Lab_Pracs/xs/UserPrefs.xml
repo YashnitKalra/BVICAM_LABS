@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{76E10B99-2387-440A-A9B8-00EC0A47D96F}|">
+  <MonoDevelop.Ide.ItemProperties.WT__Lab__Pracs PreferredExecutionTarget="firefox" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WT_Lab_Pracs/CP_4.aspx.cs">
+    <Files>
+      <File FileName="WT_Lab_Pracs/Default.aspx" Line="27" Column="45" />
+      <File FileName="WT_Lab_Pracs/CP_2.aspx" Line="18" Column="103" />
+      <File FileName="WT_Lab_Pracs/CP_2.aspx.cs" Line="1" Column="1" />
+      <File FileName="WT_Lab_Pracs/CP_3.aspx" Line="37" Column="8" />
+      <File FileName="WT_Lab_Pracs/CP_3.aspx.cs" Line="11" Column="6" />
+      <File FileName="WT_Lab_Pracs/CP_4.aspx" Line="16" Column="164" />
+      <File FileName="WT_Lab_Pracs/CP_4.aspx.cs" Line="13" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WT_Lab_Pracs" expanded="True">
+            <Node name="WT_Lab_Pracs" expanded="True">
+              <Node name="CP_4.aspx" expanded="True">
+                <Node name="CP_4.aspx.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WT__Lab__Pracs.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

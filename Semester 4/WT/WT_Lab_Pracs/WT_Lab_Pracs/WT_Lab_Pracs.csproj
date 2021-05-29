@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76E10B99-2387-440A-A9B8-00EC0A47D96F}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WT_Lab_Pracs</RootNamespace>
+    <AssemblyName>WT_Lab_Pracs</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+    <Content Include="Default.aspx" />
+    <Content Include="BP_1.aspx" />
+    <Content Include="BP_2.aspx" />
+    <Content Include="BP_3.aspx" />
+    <Content Include="CP_1.aspx" />
+    <Content Include="CP_2.aspx" />
+    <Content Include="CP_3.aspx" />
+    <Content Include="CP_4.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BP_1.aspx.cs">
+      <DependentUpon>BP_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BP_1.aspx.designer.cs">
+      <DependentUpon>BP_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BP_2.aspx.cs">
+      <DependentUpon>BP_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BP_2.aspx.designer.cs">
+      <DependentUpon>BP_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BP_3.aspx.cs">
+      <DependentUpon>BP_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BP_3.aspx.designer.cs">
+      <DependentUpon>BP_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CP_1.aspx.cs">
+      <DependentUpon>CP_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CP_1.aspx.designer.cs">
+      <DependentUpon>CP_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CP_2.aspx.cs">
+      <DependentUpon>CP_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CP_2.aspx.designer.cs">
+      <DependentUpon>CP_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CP_3.aspx.cs">
+      <DependentUpon>CP_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CP_3.aspx.designer.cs">
+      <DependentUpon>CP_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CP_4.aspx.cs">
+      <DependentUpon>CP_4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CP_4.aspx.designer.cs">
+      <DependentUpon>CP_4.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

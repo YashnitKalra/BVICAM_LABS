@@ -1,0 +1,6 @@
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/WT/WT_Lab_Pracs/WT_Lab_Pracs/bin/WT_Lab_Pracs.dll
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/WT/WT_Lab_Pracs/WT_Lab_Pracs/bin/WT_Lab_Pracs.pdb
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/WT/WT_Lab_Pracs/WT_Lab_Pracs/obj/Debug/WT_Lab_Pracs.csprojAssemblyReference.cache
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/WT/WT_Lab_Pracs/WT_Lab_Pracs/obj/Debug/WT_Lab_Pracs.csproj.CoreCompileInputs.cache
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/WT/WT_Lab_Pracs/WT_Lab_Pracs/obj/Debug/WT_Lab_Pracs.dll
+/home/yashnit/Desktop/BVICAM_LABS/Semester 4/WT/WT_Lab_Pracs/WT_Lab_Pracs/obj/Debug/WT_Lab_Pracs.pdb
