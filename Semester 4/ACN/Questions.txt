@@ -11,4 +11,19 @@ Question 4
 AIM: To configure 2 systems using a Router.
 
 Question 5
-AIM: TO configure 2 system using 2 routers
+AIM: To configure 2 systems using 2 routers.
+
+Question 6
+AIM: To configure 2 systems using 3 routers.
+
+Question 7
+AIM: To configure 3 systems using 3 routers.
+
+Question 8
+AIM: To configure 5 systems using 3 routers and 2 switches.
+
+Question 9
+AIM: To configure 7 systems using 3 routers and 3 switches.
+
+LAB Assignment 1
+AIM: To configure 10 systems using 4 routers and 4 switches.

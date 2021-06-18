@@ -11,7 +11,7 @@
 </head>
 <body>
 	<form id="form1" runat="server">
-        <asp:TextBox runat="server" id="name" placeholder="Name"></asp:TextBox>
+        <asp:TextBox runat="server" ID="name" placeholder="Name"></asp:TextBox>
         <asp:RequiredFieldValidator runat="server" ControlToValidate="name" ErrorMessage="Enter a Name"></asp:RequiredFieldValidator>
         <br>
         <asp:TextBox runat="server" id="city" placeholder="City"></asp:TextBox>

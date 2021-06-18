@@ -28,8 +28,8 @@
         <asp:RegularExpressionValidator runat="server" ControlToValidate="card_number" ErrorMessage="Invalid Card Number" ValidationExpression="^\d{16}$"></asp:RegularExpressionValidator>
 	    <br>
         <asp:Label runat="server">CVC: </asp:Label>
-        <asp:TextBox id="cvc" TextMode="Password" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ControlToValidate="cvc" runat="server" ErrorMessage="CVC Required"></asp:RequiredFieldValidator>
+        <asp:TextBox ID="cvc" TextMode="Password" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator Display="Dynamic" ControlToValidate="cvc" runat="server" ErrorMessage="CVC Required"></asp:RequiredFieldValidator>
         <asp:RegularExpressionValidator runat="server" ControlToValidate="cvc" ErrorMessage="Invalid CVC" ValidationExpression="^\d{3}$"></asp:RegularExpressionValidator>
         <br>
         <asp:Button Text="Submit" runat="server"></asp:Button>

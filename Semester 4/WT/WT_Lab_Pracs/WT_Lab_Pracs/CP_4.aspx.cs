@@ -9,7 +9,6 @@ namespace WT_Lab_Pracs
     {
         public void Validate(object sender, EventArgs args)
         {
-            Page.Validate();
             label.Text = Page.IsValid? "The page is valid!": "The page is not valid!";
         }
     }

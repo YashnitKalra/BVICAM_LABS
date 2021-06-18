@@ -31,6 +31,43 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Buffers">
+      <HintPath>..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.6.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.6.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.3\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Channels">
+      <HintPath>..\packages\System.Threading.Channels.4.7.0\lib\netstandard2.0\System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>..\packages\System.Text.Json.4.6.0\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="Npgsql">
+      <HintPath>..\packages\Npgsql.5.0.5\lib\netstandard2.0\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
@@ -43,6 +80,14 @@
     <Content Include="CP_2.aspx" />
     <Content Include="CP_3.aspx" />
     <Content Include="CP_4.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="DP_1.aspx" />
+    <Content Include="DP_2.aspx" />
+    <Content Include="EP.aspx" />
+    <Content Include="Class_Programs\DemoP.aspx" />
+    <Content Include="Class_Programs\Redirection_1.aspx" />
+    <Content Include="Class_Programs\Home.aspx" />
+    <Content Include="Class_Programs\Redirection_2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -96,6 +141,52 @@
     <Compile Include="CP_4.aspx.designer.cs">
       <DependentUpon>CP_4.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DB.cs" />
+    <Compile Include="DP_1.aspx.cs">
+      <DependentUpon>DP_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DP_1.aspx.designer.cs">
+      <DependentUpon>DP_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DP_2.aspx.cs">
+      <DependentUpon>DP_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DP_2.aspx.designer.cs">
+      <DependentUpon>DP_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EP.aspx.cs">
+      <DependentUpon>EP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EP.aspx.designer.cs">
+      <DependentUpon>EP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Programs\DemoP.aspx.cs">
+      <DependentUpon>DemoP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Programs\DemoP.aspx.designer.cs">
+      <DependentUpon>DemoP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Programs\Redirection_1.aspx.cs">
+      <DependentUpon>Redirection_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Programs\Redirection_1.aspx.designer.cs">
+      <DependentUpon>Redirection_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Programs\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Programs\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Programs\Redirection_2.aspx.cs">
+      <DependentUpon>Redirection_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Programs\Redirection_2.aspx.designer.cs">
+      <DependentUpon>Redirection_2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Class_Programs\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
