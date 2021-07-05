@@ -25,6 +25,7 @@ namespace WT_Lab_Pracs
                 {
                     tc = new TableCell();
                     tc.Text = data[k.Key][key];
+                    tc.Text = "13:07:00";
                     tc.ID = $"{key}_{i}";
                     tr.Cells.Add(tc);
                 }

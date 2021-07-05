@@ -21,7 +21,7 @@
             <asp:TableHeaderCell>Patient's Disease</asp:TableHeaderCell>
             <asp:TableHeaderCell>Nurse Assigned</asp:TableHeaderCell>
             <asp:TableHeaderCell>Medicine Prescribed</asp:TableHeaderCell>
-            <asp:TableHeaderCell>Consuming Time</asp:TableHeaderCell>
+            <asp:TableHeaderCell>Medicine Time</asp:TableHeaderCell>
             <asp:TableHeaderCell>Time Left</asp:TableHeaderCell> 
         </asp:TableHeaderRow>    
     </asp:Table>
@@ -59,6 +59,13 @@
         console.log(time_left);
     }
     
+    function format(n){
+        var p = `${n}`;
+        if(p.length==1)
+            p = "0" + p;
+        return p;
+    }
+    
     function update_time_left(){
         for(var i=0; i<rows; i++){
             if(time_left[i]==0){
@@ -66,7 +73,7 @@
                 $(`#time_left_${i+1}`).html(`<input type="checkbox" class="form-check-input" onchange="refreshTime(this)" id="consumed_${i}"> Consumed?`);
             }
             else if(time_left[i]>0){
-                $(`#time_left_${i+1}`).text(`${parseInt(time_left[i]/(60*60))} : ${parseInt(time_left[i]/60)%60} : ${time_left[i]%60}`);
+                $(`#time_left_${i+1}`).text(`${format(parseInt(time_left[i]/(60*60)))} : ${format(parseInt(time_left[i]/60)%60)} : ${format(time_left[i]%60)}`);
             }
             time_left[i]-=1;
         }

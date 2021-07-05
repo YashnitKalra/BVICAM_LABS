@@ -88,6 +88,9 @@
     <Content Include="Class_Programs\Redirection_1.aspx" />
     <Content Include="Class_Programs\Home.aspx" />
     <Content Include="Class_Programs\Redirection_2.aspx" />
+    <Content Include="FP.aspx" />
+    <Content Include="GP_1.aspx" />
+    <Content Include="IP.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -183,6 +186,24 @@
     </Compile>
     <Compile Include="Class_Programs\Redirection_2.aspx.designer.cs">
       <DependentUpon>Redirection_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FP.aspx.cs">
+      <DependentUpon>FP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FP.aspx.designer.cs">
+      <DependentUpon>FP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GP_1.aspx.cs">
+      <DependentUpon>GP_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GP_1.aspx.designer.cs">
+      <DependentUpon>GP_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IP.aspx.cs">
+      <DependentUpon>IP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IP.aspx.designer.cs">
+      <DependentUpon>IP.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

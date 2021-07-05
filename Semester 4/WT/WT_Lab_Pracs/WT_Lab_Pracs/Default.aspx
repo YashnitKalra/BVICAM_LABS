@@ -45,7 +45,7 @@
 <script>
     document.getElementsByName("iframe")[0].style.width = "75%";
     document.getElementsByName("iframe")[0].style.height = screen.availHeight * 0.68 + "px";
-    var pracs = {"BP":3, "CP":4, "DP":2, "EP":0, "FP":2, "GP":2, "HP":3, "IP":1, "JP":1};
+    var pracs = {"BP":3, "CP":4, "DP":2, "EP":0, "FP":0, "GP":2, "HP":3, "IP":0, "JP":1};
     for(var assignment in pracs)
         if(pracs[assignment]===0)
             $("#link-list-1").append(`<\li class="nav-item"><a class="nav-link" href="~/${assignment}.aspx" runat="server" target="iframe">${assignment}</a><\/li>`);

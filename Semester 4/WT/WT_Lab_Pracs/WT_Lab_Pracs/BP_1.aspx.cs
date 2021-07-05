@@ -10,7 +10,6 @@ namespace WT_Lab_Pracs
         public void button1Clicked(object sender, EventArgs args)
         {
             Response.Write("Welcome To BVICAM");
-            new DB();
         }
     }
 }

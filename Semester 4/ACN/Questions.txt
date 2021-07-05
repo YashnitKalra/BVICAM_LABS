@@ -25,5 +25,14 @@ AIM: To configure 5 systems using 3 routers and 2 switches.
 Question 9
 AIM: To configure 7 systems using 3 routers and 3 switches.
 
-LAB Assignment 1
+Question 10
 AIM: To configure 10 systems using 4 routers and 4 switches.
+
+Question 11
+AIM: To configure 2 systems, 2 routers using RIP protocol.
+
+Question 12
+AIM: To configure 3 systems, 3 routers using dynamic routing (RIP protocol).
+
+Question 13
+AIM: To configure 5 systems using 3 routers, 2 switches and using dynamic routing (RIP protocol)

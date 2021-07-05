@@ -24,8 +24,8 @@
         <asp:RequiredFieldValidator runat="server" ControlToValidate="payment_mode"></asp:RequiredFieldValidator>
         <asp:Label runat="server">Card Number: </asp:Label>
         <asp:TextBox id="card_number" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator runat="server" ControlToValidate="card_number" ErrorMessage="Card Number Required"></asp:RequiredFieldValidator>
-        <asp:RegularExpressionValidator runat="server" ControlToValidate="card_number" ErrorMessage="Invalid Card Number" ValidationExpression="^\d{16}$"></asp:RegularExpressionValidator>
+        <asp:RequiredFieldValidator runat="server" ControlToValidate="card_number" ErrorMessage="Card Number Required" Display="Dynamic"></asp:RequiredFieldValidator>
+        <asp:RegularExpressionValidator runat="server" Display="Dynamic" ControlToValidate="card_number" ErrorMessage="Invalid Card Number" ValidationExpression="^\d{16}$"></asp:RegularExpressionValidator>
 	    <br>
         <asp:Label runat="server">CVC: </asp:Label>
         <asp:TextBox ID="cvc" TextMode="Password" runat="server"></asp:TextBox>
