@@ -48,6 +48,16 @@ namespace WT_Lab_Pracs
             cmd.ExecuteNonQuery();
         }
 
+        public void AddUser(String name, String password, String email, String mobile)
+        {
+            cmd.CommandText = "INSERT INTO users VALUES(@name, @password, @email, @contact_number)";
+            cmd.Parameters.AddWithValue("name", name);
+            cmd.Parameters.AddWithValue("password", password);
+            cmd.Parameters.AddWithValue("email", email);
+            cmd.Parameters.AddWithValue("contact_number", mobile);
+            cmd.ExecuteNonQuery();
+        }
+
         public bool StudentExists(String email, String password)
         {
             cmd.CommandText = $"SELECT COUNT(*) as num FROM student WHERE email='{email}' AND password='{password}'";
@@ -59,7 +69,18 @@ namespace WT_Lab_Pracs
             return res;
         }
 
-        public bool UserExists(String username, String password)
+        public bool UserExists(String email, String password)
+        {
+            cmd.CommandText = $"SELECT COUNT(*) as num FROM users WHERE email='{email}' AND password='{password}'";
+            bool res;
+            using (NpgsqlDataReader reader = cmd.ExecuteReader())
+            {
+                res = reader.Read() && Convert.ToInt32(reader["num"]) == 1;
+            }
+            return res;
+        }
+
+        public bool UserExists2(String username, String password)
         {
             cmd.CommandText = $"SELECT COUNT(*) as num FROM student WHERE name='{username}' AND password='{password}'";
             bool res;

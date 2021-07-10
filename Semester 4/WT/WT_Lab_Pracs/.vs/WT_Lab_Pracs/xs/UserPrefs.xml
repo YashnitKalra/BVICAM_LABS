@@ -1,15 +1,20 @@
 ﻿<Properties StartupConfiguration="{76E10B99-2387-440A-A9B8-00EC0A47D96F}|">
   <MonoDevelop.Ide.ItemProperties.WT__Lab__Pracs PreferredExecutionTarget="firefox" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WT_Lab_Pracs/IP.aspx.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WT_Lab_Pracs/register.aspx.cs">
     <Files>
-      <File FileName="WT_Lab_Pracs/IP.aspx" Line="1" Column="1" />
-      <File FileName="WT_Lab_Pracs/IP.aspx.cs" Line="10" Column="9" />
+      <File FileName="WT_Lab_Pracs/login.aspx" Line="26" Column="93" />
+      <File FileName="WT_Lab_Pracs/login.aspx.cs" Line="22" Column="31" />
+      <File FileName="WT_Lab_Pracs/register.aspx" Line="41" Column="13" />
+      <File FileName="WT_Lab_Pracs/register.aspx.cs" Line="19" Column="25" />
+      <File FileName="WT_Lab_Pracs/DP_1.aspx" Line="1" Column="1" />
+      <File FileName="WT_Lab_Pracs/DP_1.aspx.cs" Line="32" Column="18" />
+      <File FileName="WT_Lab_Pracs/DP_2.aspx.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WT_Lab_Pracs" expanded="True">
-            <Node name="WT_Lab_Pracs" expanded="True" selected="True" />
+            <Node name="WT_Lab_Pracs" expanded="True" />
           </Node>
         </State>
       </Pad>
