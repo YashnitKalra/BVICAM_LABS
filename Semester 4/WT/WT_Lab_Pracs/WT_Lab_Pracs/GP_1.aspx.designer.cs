@@ -15,6 +15,12 @@ namespace WT_Lab_Pracs {
 		
 		protected System.Web.UI.HtmlControls.HtmlForm form1;
 		
-		protected System.Web.UI.WebControls.TextBox name;
+		protected System.Web.UI.WebControls.Table Table1;
+		
+		protected System.Web.UI.WebControls.TextBox username;
+		
+		protected System.Web.UI.WebControls.TextBox password;
+		
+		protected System.Web.UI.WebControls.Button btn_login;
 	}
 }

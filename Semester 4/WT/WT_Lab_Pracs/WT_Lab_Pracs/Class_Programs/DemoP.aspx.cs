@@ -10,6 +10,8 @@ namespace WT_Lab_Pracs
         DB db;
         protected void Page_Load(object sender, EventArgs args)
         {
+            if (Session["username"] != null)
+                Response.Redirect("Home.aspx");
             db = new DB();
         }
         public void Login(object sender, EventArgs args)

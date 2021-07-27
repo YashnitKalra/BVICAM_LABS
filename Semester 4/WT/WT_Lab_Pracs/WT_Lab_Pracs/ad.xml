@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/092015/google_new_logo_fav_icon.png?itok=JLjdBZEh</ImageUrl>
+    <NavigateUrl>http://google.com</NavigateUrl>
+    <AlternateText>Google</AlternateText>
+    <Impressions>10</Impressions>
+    <Keyword>Google</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://www.celt.edu.my/gallery_gen/e9acccd0530e5c58ea42b8302f70c500_400x400.png</ImageUrl>
+    <NavigateUrl>http://google.com</NavigateUrl>
+    <AlternateText>Google Photos</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Google, Photos</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/062017/untitled-1_154.png?itok=2uuLyBIu</ImageUrl>
+    <NavigateUrl>http://facebook.com</NavigateUrl>
+    <AlternateText>FB</AlternateText>
+    <Impressions>10</Impressions>
+    <Keyword>Facebook</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/062015/whatsapp_logo.jpg?itok=55haxWBV</ImageUrl>
+    <NavigateUrl>http://google.com</NavigateUrl>
+    <AlternateText>Google</AlternateText>
+    <Impressions>10</Impressions>
+    <Keyword>Whatsapp, google</Keyword>
+  </Ad>
+</Advertisements>

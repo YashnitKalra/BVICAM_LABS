@@ -94,6 +94,10 @@
     <Content Include="login.aspx" />
     <Content Include="register.aspx" />
     <Content Include="welcome.aspx" />
+    <Content Include="CookieRetreival.aspx" />
+    <Content Include="GP_2.aspx" />
+    <Content Include="HP_1.aspx" />
+    <Content Include="HP_3.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -226,9 +230,36 @@
     <Compile Include="welcome.aspx.designer.cs">
       <DependentUpon>welcome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CookieRetreival.aspx.cs">
+      <DependentUpon>CookieRetreival.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CookieRetreival.aspx.designer.cs">
+      <DependentUpon>CookieRetreival.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GP_2.aspx.cs">
+      <DependentUpon>GP_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GP_2.aspx.designer.cs">
+      <DependentUpon>GP_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HP_1.aspx.cs">
+      <DependentUpon>HP_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HP_1.aspx.designer.cs">
+      <DependentUpon>HP_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HP_3.aspx.cs">
+      <DependentUpon>HP_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HP_3.aspx.designer.cs">
+      <DependentUpon>HP_3.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Class_Programs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ad.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
