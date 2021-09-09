@@ -9,14 +9,32 @@ and open the template in the editor.
         <title>First Servlet Project</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            li{
+                margin-bottom: 10px;
+            }
+        </style>
     </head>
     <body>
         <div>
-            <form method="POST" action="firstServlet">
-                <input type="number" placeholder="Number 1" name="num1">
-                <input type="number" placeholder="Number 2" name="num2">
-                <input type="submit" value="Submit">
-            </form>
+            <ul id="list"></ul>
         </div>
     </body>
 </html>
+<script>
+    let l = document.getElementById("list");
+    let links = {
+        "First Servlet": "firstServlet.html",
+        "AP 1": "AP1",
+        "AP 2": "AP2.html",
+        "AP 3": "AP3.html",
+        "AP 4": "AP4.html",
+        "AP 5": "AP5.html",
+        "BP 1": "BP1"
+    };
+    let s = "";
+    for(const name in links)
+        s += `<li><a href="${links[name]}">${name}</a></li>`;
+    l.innerHTML = s;
+        
+</script>

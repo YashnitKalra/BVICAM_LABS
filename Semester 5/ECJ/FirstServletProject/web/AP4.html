@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            fieldset{
+                margin-bottom: 10px;
+            }
+            legend{
+                color: red;
+            }
+            input,select{
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="AP4" method="POST" style="width: 30%; background-color: #f0f8ff; padding: 10px;">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <table>
+                    <tr><td>Name: </td><td><input type="text" name="name"></td></tr>
+                    <tr><td>Password: </td><td><input type="password" name="password"></td></tr>
+                    <tr>
+                        <td>Gender: </td>
+                        <td>
+                            <input type="radio" name="gender" value="Male">Male
+                            <input type="radio" name="gender" value="Female">Female</td>
+                    </tr>
+                    <tr>
+                        <td>Age: </td>
+                        <td>
+                            <select name="age">
+                                <option value="< 18">< 18</option>
+                                <option value="18-45">18-45</option>
+                                <option value="> 45">> 45</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset style="text-align: center;">
+                <legend>Programming Languages</legend>
+                <input type="checkbox" name="pl" value="C">C
+                <input type="checkbox" name="pl" value="C++">C++
+                <input type="checkbox" name="pl" value="C#">C#
+                <input type="checkbox" name="pl" value="Java">Java
+                <input type="checkbox" name="pl" value="PHP">PHP
+            </fieldset>
+            <fieldset>
+                <legend>Message</legend>
+                <textarea name="message" rows="4" cols="50"></textarea>
+            </fieldset>
+            <input type="submit" value="Save">
+            <input type="reset" value="Clear">
+        </form>
+    </body>
+</html>
