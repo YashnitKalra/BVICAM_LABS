@@ -43,10 +43,10 @@ public class DivisionTest {
     @Test
     public void testDivide() {
         System.out.println("divide");
-        double a = 9.0;
-        double b = 3.0;
+        double a = 4.725;
+        double b = 2.25;
         Division instance = new Division();
-        Double expResult = 3.0;
+        Double expResult = 2.1;
         Double result = instance.divide(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.

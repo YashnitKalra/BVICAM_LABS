@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Arithmetic;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -16,9 +15,9 @@ import static org.junit.Assert.*;
  *
  * @author yashnit
  */
-public class AdditionTest {
+public class ArithmeticTest {
     
-    public AdditionTest() {
+    public ArithmeticTest() {
     }
     
     @BeforeClass
@@ -38,17 +37,33 @@ public class AdditionTest {
     }
 
     /**
-     * Test of add method, of class Addition.
+     * Test of add method, of class Arithmetic.
      */
     @Test
     public void testAdd() {
         System.out.println("add");
-        double a = 2.0;
-        double b = 3.2;
-        Addition instance = new Addition();
-        double expResult = 5.2;
+        double a = 4.182;
+        double b = 1.818;
+        Arithmetic instance = new Arithmetic();
+        double expResult = 6.0;
         double result = instance.add(a, b);
         assertEquals(expResult, result, 0.0);
+        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of divide method, of class Arithmetic.
+     */
+    @Test
+    public void testDivide() {
+        System.out.println("divide");
+        double a = 4.725;
+        double b = 2.25;
+        Arithmetic instance = new Arithmetic();
+        Double expResult = 2.1;
+        Double result = instance.divide(a, b);
+        assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
 //        fail("The test case is a prototype.");
     }

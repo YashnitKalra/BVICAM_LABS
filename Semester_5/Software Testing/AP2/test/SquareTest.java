@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Arithmetic;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -16,9 +15,9 @@ import static org.junit.Assert.*;
  *
  * @author yashnit
  */
-public class AdditionTest {
+public class SquareTest {
     
-    public AdditionTest() {
+    public SquareTest() {
     }
     
     @BeforeClass
@@ -38,16 +37,14 @@ public class AdditionTest {
     }
 
     /**
-     * Test of add method, of class Addition.
+     * Test of getArea method, of class Square.
      */
     @Test
-    public void testAdd() {
-        System.out.println("add");
-        double a = 2.0;
-        double b = 3.2;
-        Addition instance = new Addition();
-        double expResult = 5.2;
-        double result = instance.add(a, b);
+    public void testGetArea() {
+        System.out.println("getArea");
+        Square instance = new Square(4);
+        double expResult = 16;
+        double result = instance.getArea();
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
 //        fail("The test case is a prototype.");

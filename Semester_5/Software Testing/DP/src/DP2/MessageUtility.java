@@ -3,14 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Arithmetic;
+package DP2;
 
 /**
  *
  * @author yashnit
  */
-public class Addition {
-    double add(double a, double b){
-        return a+b;
+public class MessageUtility {
+    private String msg;
+    MessageUtility(String msg){
+        this.msg = msg;
+    }
+    
+    String showMessage(){
+        System.out.println(msg);
+        return msg;
     }
 }

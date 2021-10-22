@@ -3,14 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Arithmetic;
+package DP5;
 
 /**
  *
  * @author yashnit
  */
-public class Addition {
-    double add(double a, double b){
-        return a+b;
+public class PrimeNumberChecker {
+    public boolean isPrime(int n){
+        for(int i=2; i*i<=n; i++)
+            if(n%i==0)
+                return false;
+        return true;
     }
 }

@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author yashnit
  */
-public class AdditionTest {
+public class MultiplyTest {
     
-    public AdditionTest() {
+    public MultiplyTest() {
     }
     
     @BeforeClass
@@ -38,16 +38,16 @@ public class AdditionTest {
     }
 
     /**
-     * Test of add method, of class Addition.
+     * Test of multiply method, of class Multiply.
      */
     @Test
-    public void testAdd() {
-        System.out.println("add");
-        double a = 2.0;
-        double b = 3.2;
-        Addition instance = new Addition();
-        double expResult = 5.2;
-        double result = instance.add(a, b);
+    public void testMultiply() {
+        System.out.println("multiply");
+        double a = 8.2;
+        double b = 3.0;
+        Multiply instance = new Multiply();
+        double expResult = 24.6;
+        double result = instance.multiply(a, b);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
 //        fail("The test case is a prototype.");

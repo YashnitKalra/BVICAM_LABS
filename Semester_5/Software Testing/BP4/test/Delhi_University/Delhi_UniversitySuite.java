@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Arithmetic;
+package Delhi_University;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -17,8 +17,8 @@ import org.junit.runners.Suite;
  * @author yashnit
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({Arithmetic.DivisionTest.class, Arithmetic.AdditionTest.class})
-public class ArithmeticTestSuite {
+@Suite.SuiteClasses({Delhi_University.UGCourseTest.class})
+public class Delhi_UniversitySuite {
 
     @BeforeClass
     public static void setUpClass() throws Exception {

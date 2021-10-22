@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Arithmetic;
+package Square;
 
 /**
  *
  * @author yashnit
  */
-public class Addition {
-    double add(double a, double b){
-        return a+b;
+public class SqaureChecker {
+    public int square(int n){
+        return n*n;
     }
 }

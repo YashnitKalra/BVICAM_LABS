@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Arithmetic;
+package Addition;
 
 /**
  *
  * @author yashnit
  */
 public class Addition {
-    double add(double a, double b){
-        return a+b;
+    int add(int n1, int n2){
+        return n1+n2;
     }
 }

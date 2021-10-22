@@ -9,8 +9,8 @@ package Arithmetic;
  *
  * @author yashnit
  */
-public class Addition {
-    double add(double a, double b){
-        return a+b;
+public class Subtract {
+    double subtract(double a, double b){
+        return a-b;
     }
 }

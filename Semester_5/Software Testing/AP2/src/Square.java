@@ -3,14 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Arithmetic;
 
 /**
  *
  * @author yashnit
  */
-public class Addition {
-    double add(double a, double b){
-        return a+b;
+public class Square {
+    private double side;
+    Square(double sideLength){
+        side = sideLength;
+    }
+    
+    public double getArea(){
+        return side*side;
     }
 }
