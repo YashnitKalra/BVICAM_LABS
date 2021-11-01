@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer Detail</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            fieldset{
+                padding: 20px;
+            }
+            form{
+                margin: 20px;
+            }
+            td{
+                text-align: right;
+            }
+            legend{
+                color: #a40101;
+            }
+        </style>
+    </head>
+    <body style="background-color: #cbcbcb">
+        <form action="addCustomerServlet" method="post">
+            <fieldset>
+                <legend>Add Customer</legend>
+                <table>
+                    <tr><td>Name:</td><td><input type="text" name="name"></td></tr>
+                    <tr><td>Age:</td><td><input type="number" name="age"></td></tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <select name="gender" style="width:100%;">
+                                <option value="m">Male</option>
+                                <option value="f">Female</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td colspan="2"><input type="submit" style="width:100%;" value="Add" name="submit"></td></tr>
+                </table>
+            </fieldset>
+        </form>
+        
+        <form action="addCustomerServlet" method="post">
+            <fieldset>
+                <legend>Delete Customer</legend>
+                <table>
+                    <tr><td>ID:</td><td><input type="number" name="id"></td></tr>
+                    <tr><td colspan="2"><input type="submit" style="width:100%;" value="Delete" name="submit"></td></tr>
+                </table>
+            </fieldset>
+        </form>
+        
+        
+        <form action="addCustomerServlet" method="post">
+            <fieldset>
+                <legend>Update Customer</legend>
+                <table>
+                    <tr><td>ID:</td><td><input type="number" name="id"></td></tr>
+                    <tr><td>Name</td><td><input type="text" name="name"></td></tr>
+                    <tr><td>Age:</td><td><input type="number" name="age"></td></tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <select name="gender" style="width:100%;">
+                                <option value="m">Male</option>
+                                <option value="f">Female</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td colspan="2"><input type="submit" style="width:100%;" value="Update" name="submit"></td></tr>
+                </table>
+            </fieldset>
+        </form>
+        
+        <form action="addCustomerServlet" method="post">
+            Display Customers: 
+            <input type="submit" value="Display" name="submit">
+        </form>
+    </body>
+</html>
